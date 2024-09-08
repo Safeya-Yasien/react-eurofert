@@ -1,0 +1,30 @@
+@import "../../../styles/_variable";
+
+.single_counter_container {
+  color: $white-color;
+  text-align: center;
+
+  .counter_number {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -17px;
+      width: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 2px;
+      background-color: $white-color;
+    }
+  }
+
+  .counter_title {
+    position: relative;
+    color: $white-color;
+    margin-top: 30px;
+    font-weight: normal;
+  }
+}

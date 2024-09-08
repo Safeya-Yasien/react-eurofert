@@ -1,0 +1,54 @@
+@import "../../styles/_variable";
+
+.shop {
+  //   background-color: #f5f5f5;
+
+  .mainTitle {
+    text-align: center;
+    color: #0b9c53;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    position: relative;
+    font-family: "Abhaya Libre", serif;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $main-color;
+    }
+  }
+  .category {
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid $main-color;
+    padding: 0 15px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all $main-transition ease-in-out;
+    &:hover,
+    &:active {
+      background-color: $main-color;
+      color: $white-color;
+    }
+    &.active {
+      background-color: $main-color;
+      color: $white-color;
+    }
+  }
+  .loadMore {
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: $main-color;
+    color: $white-color;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    display: block;
+    margin-inline: auto;
+  }
+}

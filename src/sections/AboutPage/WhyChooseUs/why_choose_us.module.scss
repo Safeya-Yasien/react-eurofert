@@ -1,0 +1,45 @@
+@import "../../../styles/_variable";
+
+.why_choose_us {
+  color: $white-color;
+  overflow: hidden;
+  background-color: #333;
+  .custom_img_display {
+    @media (max-width: 575.98px) {
+      & {
+        display: none;
+      }
+    }
+  }
+  .features {
+    padding: 20px 10px;
+    h3 {
+      color: #479c18;
+      font-size: 30px;
+      margin: 0 0 50px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed $white-color;
+      width: fit-content;
+      font-weight: bold;
+      @media (max-width: 991px) {
+        & {
+          margin-inline: auto;
+        }
+      }
+    }
+    .feature_item {
+      h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+      }
+      p {
+        font-size: 12px;
+      }
+      @media (max-width: 991px) {
+        & {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

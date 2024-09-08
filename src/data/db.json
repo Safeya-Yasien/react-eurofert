@@ -1,0 +1,82 @@
+{
+  "categories": [
+    { "label": "All", "filter": "all" },
+    { "label": "NPK", "filter": "npk" },
+    { "label": "Creative", "filter": "creative" },
+    { "label": "Corporate", "filter": "corporate" },
+    { "label": "Design", "filter": "design" },
+    { "label": "Development", "filter": "development" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "design",
+      "image": "product_1",
+      "alt": "Product 1",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab praesentium in vel odio soluta repellat nam aspernatur distinctio provident repellendus!"
+    },
+    {
+      "id": 2,
+      "category": "creative",
+      "image": "product_2",
+      "alt": "Product 2",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    },
+    {
+      "id": 3,
+      "category": "corporate",
+      "image": "product_3",
+      "alt": "Product 3",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+      "id": 4,
+      "category": "development",
+      "image": "product_4",
+      "alt": "Product 4",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+    },
+    {
+      "id": 5,
+      "category": "npk",
+      "image": "product_5",
+      "alt": "Product 5",
+      "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+    },
+    {
+      "id": 6,
+      "category": "design",
+      "image": "product_7",
+      "alt": "Product 7",
+      "description": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    },
+    {
+      "id": 7,
+      "category": "design",
+      "image": "product_7",
+      "alt": "Product 7",
+      "description": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    },
+    {
+      "id": 8,
+      "category": "design",
+      "image": "product_4",
+      "alt": "Product 7",
+      "description": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    },
+    {
+      "id": 9,
+      "category": "design",
+      "image": "product_4",
+      "alt": "Product 7",
+      "description": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    },
+    {
+      "id": 10,
+      "category": "design",
+      "image": "product_2",
+      "alt": "Product 7",
+      "description": "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    }
+  ]
+}

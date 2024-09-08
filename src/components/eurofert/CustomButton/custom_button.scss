@@ -1,0 +1,19 @@
+@import "../../../styles/_variable";
+
+.custom_button {
+  background-color: $main-color;
+  color: $white-color;
+  width: fit-content;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 21px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all $main-transition;
+  font-family: "Abhaya Libre", serif;
+  cursor: pointer;
+  &:hover {
+    background-color: $hover-color;
+  }
+}

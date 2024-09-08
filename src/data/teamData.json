@@ -1,0 +1,22 @@
+{
+  "team": [
+    {
+      "id": "1",
+      "name": "john",
+      "role": "Lorem ipsum dolor sit ",
+      "image": "team_1"
+    },
+    {
+      "id": "2",
+      "name": "will",
+      "role": "Lorem ipsum dolor sit ",
+      "image": "team_2"
+    },
+    {
+      "id": "3",
+      "name": "Jack",
+      "role": "Lorem ipsum dolor sit ",
+      "image": "team_3"
+    }
+  ]
+}

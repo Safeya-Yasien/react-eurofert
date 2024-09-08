@@ -1,0 +1,86 @@
+@import "../../../styles/_variable";
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: transparent;
+  background-color: $white-color;
+  box-shadow: 0 0 10px;
+  .navBar {
+    .navbar_container {
+      height: 60px !important;
+    }
+
+    @media (max-width: 997px) {
+      .navbar_collapse {
+        background-color: $white-color;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 0 10px;
+        .navLink {
+          &:hover {
+            background-color: #eee;
+            padding: 6px 10px;
+            border-radius: 10px;
+            color: $hover-color;
+          }
+        }
+      }
+    }
+
+    .logo_img {
+      width: 100px;
+    }
+
+    .navbarToggler {
+      border: none;
+      box-shadow: none;
+    }
+
+    .navLink {
+      font-size: 20px;
+      transition: $main-transition;
+      color: $black-color;
+    }
+    .basic_nav_dropdown {
+      & > a {
+        color: inherit;
+      }
+      a {
+        background-color: transparent;
+        &:active,
+        &:hover {
+          color: $hover-color;
+        }
+      }
+    }
+  }
+
+  .contact_icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        svg {
+          color: $black-color;
+          transition: $main-transition;
+          &:hover {
+            color: $hover-color;
+          }
+        }
+      }
+    }
+    @media (max-width: 991px) {
+      & {
+        display: none;
+      }
+    }
+  }
+}

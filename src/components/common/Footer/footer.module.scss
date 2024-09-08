@@ -1,0 +1,73 @@
+@import "../../../styles/_variable";
+
+.footer {
+  background-color: #2c2c2c;
+  padding: 30px;
+
+
+
+
+
+  .logo {
+    img {
+      width: 150px;
+      border-radius: 8px;
+      max-width: 100%;
+    }
+    p {
+      color: $light-gray;
+      font-size: 14px;
+      margin: 20px 0 0;
+    }
+  }
+
+  .foot {
+    .title {
+      font-size: 20px;
+      color: $white-color;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      a {
+        color: $light-gray;
+        transition: $main-transition;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+
+  .formControl {
+    background-color: rgba(0, 0, 0, 20%);
+    border: none;
+    outline: none;
+    color: $white-color !important;
+    &::placeholder {
+      color: #6c757d;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      background-color: rgba(0, 0, 0, 20%);
+    }
+  }
+  .btn {
+    border: none;
+    outline: none;
+    background-color: $main-color;
+    padding: 10px;
+    color: $white-color;
+    transition: $main-transition;
+    height: 100%;
+    &:hover {
+      color: $black-color;
+    }
+  }
+}

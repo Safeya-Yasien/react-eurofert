@@ -1,0 +1,6 @@
+export {default as service_1} from './service-1.jpg'
+export {default as service_2} from './service-2.jpg'
+export {default as service_3} from './service-3.jpg'
+export {default as service_4} from './service-4.jpg'
+export {default as service_5} from './service-5.jpg'
+export {default as service_6} from './service-6.jpg'

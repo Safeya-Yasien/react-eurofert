@@ -1,0 +1,11 @@
+@import "../../../styles/_variable";
+
+.custom_title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  .highlighted_text {
+    color: $main-color;
+  }
+}
+

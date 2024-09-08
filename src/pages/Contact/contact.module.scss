@@ -1,0 +1,87 @@
+@import "../../styles/_variable";
+
+.userData {
+  background-color: #303030;
+  padding: 20px;
+  border-radius: 5px;
+  .title {
+    color: $white-color;
+    margin-bottom: 30px;
+    span {
+      color: $main-color;
+    }
+  }
+  .formGroup {
+    margin-bottom: 25px;
+    .formControl {
+      border: none;
+      border-bottom: 1px solid $light-gray;
+      background-color: transparent;
+      outline: none;
+      color: $white-color;
+      padding: 6px 30px;
+      border-radius: 0;
+      box-shadow: none;
+      &::placeholder {
+        color: #6c757d;
+      }
+    }
+  }
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  .checkBox {
+    margin-top: -1px;
+  }
+  label {
+    color: $white-color;
+    a {
+      color: $white-color;
+      text-decoration: underline;
+      font-size: 12px;
+    }
+  }
+  .formSubmit {
+    margin: 0 auto;
+    display: block;
+    background-color: #134f31;
+    border-radius: 10px;
+    padding: 6px 20px;
+    margin-top: 30px;
+    color: $white-color;
+    &:hover {
+      background-color: #134f31;
+      color: $white-color;
+    }
+  }
+}
+.map {
+  background-color: $white-color;
+  padding: 20px;
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+  .contactLinks {
+    li {
+      margin-bottom: 15px;
+      .contactLink {
+        color: $black-color;
+        display: flex;
+        align-items: center;
+        svg {
+          color: #134f31;
+          margin-right: 15px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .socialLink {
+    color: $black-color;
+    transition: $main-transition;
+    font-size: 18px;
+    &:hover {
+      color: #134f31;
+    }
+  }
+}

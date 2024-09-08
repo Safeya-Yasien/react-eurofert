@@ -1,0 +1,54 @@
+@import "../../styles/_variable";
+
+.job {
+  box-shadow: 0 0 10px;
+  background-color: #f5f5f5;
+}
+.Job_title {
+  background-color: #479c18;
+  width: fit-content;
+  padding: 10px;
+  margin: 0 auto;
+  color: lavender;
+  border-radius: 5px;
+}
+.job_Info {
+  p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    @media (max-width: 767px) {
+      & {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .employee_btn {
+    background-color: #134f31;
+    border-radius: 10px;
+    padding: 6px 20px;
+    color: $white-color;
+    white-space: nowrap;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+  }
+
+  @media (max-width: 767px) {
+    & {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.employee_type {
+  border: 1px solid $main-color;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: $white-color;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  p {
+    margin-bottom: 0;
+  }
+}
